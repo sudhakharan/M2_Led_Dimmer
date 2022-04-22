@@ -18,7 +18,7 @@ int main(void)
             {
                 OCR0++;
             }
-            _delay_ms(50);
+            _delay_ms(100);
 
         }
         if (bit_is_clear(PIND,6))
@@ -27,7 +27,7 @@ int main(void)
             {
                 OCR0--;
             }
-            _delay_ms(50);
+            _delay_ms(100);
         }
     }
 }
